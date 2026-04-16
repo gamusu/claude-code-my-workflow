@@ -70,3 +70,13 @@ When a mistake is corrected, append a `[LEARN:category]` entry below.
 [LEARN:meta] Dogfooding principles must be enforced: plan-first, spec-then-plan, quality gates, session logs → we follow our own guide.
 
 [LEARN:meta] Template development work (building infrastructure, docs) doesn't create session logs in quality_reports/ → those are for user work (slides, analysis), not meta-work. Keeps template clean for users who fork.
+
+## Project: The Dictator's Gambit (dissertation)
+
+See `memory/user_profile.md` and `memory/project_dissertation.md` for full project context.
+
+[LEARN:project] This repo is configured for a comparative politics dissertation at Princeton, not a lecture series. Chapter workflow: import from Overleaf → review → develop → commit. Slides/ is for seminar/JM talks, not lectures.
+
+[LEARN:project] User wants structured check-ins during early sessions (still learning the workflow). Flag ambiguity early; don't barrel through assumptions.
+
+[LEARN:project] Overleaf is the drafting tool; this repo is authoritative. Never edit same file in both. Import path: Overleaf zip export → chapters/ → commit.
